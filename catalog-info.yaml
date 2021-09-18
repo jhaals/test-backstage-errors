@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: test-backstage-errors-root
+  description: root of all locations
+spec:
+  targets:
+    - ./1/first.yaml
+    - ./2/second.yaml
